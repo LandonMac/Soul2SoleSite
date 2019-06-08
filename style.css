@@ -1,21 +1,43 @@
 * {
-	background-color: #FBE8A6;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Proza Libre', sans-serif;
+  background-color: #A9F5F2;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Proza Libre', sans-serif;
 }
 
-.heading, .info {
-	text-align: center;
+#title {
+  font-family: 'Raleway',
+    sans-serif;
+}
+
+.heading,
+.info {
+  text-align: center;
 }
 
 .column {
-	float: left;
-	width: 45%;
-	padding: 10px;
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+
+.pic_column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
 @media only screen and (max-width: 768px) {
   .column {
     width: 100%;
   }
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
 }
